@@ -1,7 +1,9 @@
 import "./topbar.scss";
 import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
 
-export default function Topbar() {
+export default function Topbar({
+  menuOpen, setMenuOpen
+}) {
   return (
     <div className="topbar">
       <div className="wrapper">
