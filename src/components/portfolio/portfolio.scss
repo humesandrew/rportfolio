@@ -25,15 +25,23 @@ ul {
 li {
     font-size: 12px;
     margin: auto;
-    padding: 0;
+    padding: 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
+    color: black;
+    flex-wrap: wrap;
+    border: 5px solid white;
+    border-radius: 20px;
+    &.active{
+        background-color: $mainColor;
+        color: white;
+    }
 }
 
 .container {
-    width: 70%;
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,21 +63,27 @@ li {
     transition: all .5s ease;
     cursor: pointer;
 
-    img {
-        width: 90%;
-        height: 90%;
+    h3 {
+        position: absolute;
+        font-size: 20px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        border-radius: 20px;
-        margin: 2.5px 2.5px;
-        &:hover {
-            background-color: $mainColor;
-            img {
-              opacity: 0.2;
-              z-index: 0;
-            }
-          }
+        z-index: 1;
+      }
+
+      &:hover {
+        background-color: $mainColor;
+        img {
+          opacity: 0.2;
+          z-index: 0;
+        }
+      }
        
     }
 }
 
-}}
+}
