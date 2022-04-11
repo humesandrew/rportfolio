@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./credentials.scss";
+import EducationCard from "../educationCard/EducationCard";
 
 export default function Credentials() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -62,6 +63,8 @@ export default function Credentials() {
                   src=""
                   alt=""
                 />
+                <EducationCard />
+             
               </div>
             </div>
           </div>
