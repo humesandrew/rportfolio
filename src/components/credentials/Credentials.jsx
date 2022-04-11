@@ -1,33 +1,32 @@
 import { useState } from "react";
 import "./credentials.scss";
 
-export default function Works() {
+export default function Credentials() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
+   
+      title: "Education",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "",
+        "University of Denver: Full-Stack Coding Bootcamp.",
+     
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
+     
+      title: "Volunteer",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Volunteer stuff.",
       img:
         "",
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
+    //   icon: "./assets/writing.png",
+      title: "Publications",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "The 2 publications.",
       img:
         "",
     },
@@ -40,7 +39,7 @@ export default function Works() {
   };
   
   return (
-    <div className="works" id="works">
+    <div className="credentials" id="credentials">
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -55,7 +54,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+              
                 </div>
               </div>
               <div className="right">
