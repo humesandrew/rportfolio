@@ -12,9 +12,28 @@ export default function Contact() {
     <div className="contact" id="contact">
       <div className="left">
         <img src="assets/shake.svg" alt="" />
+        <div className="contact-wrapper">
+        <h1> Contact me </h1>
+        <div className="contact-left">
+          <div className="contact-info">
+            <div className="contact-info-item">
+              <img src='' alt="" className="contact-icon" />
+              614-975-7115
+            </div>
+            <div className="contact-info-item">
+              <img className="contact-icon" src='' alt="" />
+             humes.andrew@gmail.com
+            </div>
+            <div className="contact-info-item">
+              <img className="contact-icon" src='' alt="" />
+              Denver, CO
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
       <div className="right">
-        <h2>Contact</h2>
+        <h2>Send a message</h2>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>

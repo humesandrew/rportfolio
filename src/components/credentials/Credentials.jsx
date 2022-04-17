@@ -1,35 +1,30 @@
 import { useState } from "react";
 import "./credentials.scss";
-import EducationCard from "../educationCard/EducationCard";
+import CredentialsCard from "../credentialsCard/CredentialsCard";
+// import education from "../credentialsCard/CredentialsCard";
 
 export default function Credentials() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
-   
+
       title: "Education",
-      desc:
-        "University of Denver: Full-Stack Coding Bootcamp.",
-     
+      desc: "University of Denver: Full-Stack Coding Bootcamp.",
     },
     {
       id: "2",
-     
+
       title: "Volunteer",
-      desc:
-        "Volunteer stuff.",
-      img:
-        "",
+      desc: "Volunteer stuff.",
+      img: "",
     },
     {
       id: "3",
-    //   icon: "./assets/writing.png",
+
       title: "Publications",
-      desc:
-        "The 2 publications.",
-      img:
-        "",
+      desc: "The 2 publications.",
+      img: "",
     },
   ];
 
@@ -38,7 +33,7 @@ export default function Credentials() {
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
-  
+
   return (
     <div className="credentials" id="credentials">
       <div
@@ -50,21 +45,17 @@ export default function Credentials() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
+                  
                   <div className="imgContainer">
                     <img src={d.icon} alt="" />
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-              
                 </div>
               </div>
               <div className="right">
-                <img
-                  src=""
-                  alt=""
-                />
-                <EducationCard />
-             
+                <img src="" alt="" />
+                <CredentialsCard/>
               </div>
             </div>
           </div>

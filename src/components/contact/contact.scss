@@ -8,25 +8,99 @@
     flex-direction: column;
   }
 
-
-  .right {
+  // .contact {
+  //   height: 100vh;
+  //   position: relative;
+  // }
+  
+  // .contact-wrapper {
+  //   padding: 50px;
+  //   display: flex;
+  // }
+  
+  // .contact-left {
+  //   margin-top: 50px;
+  //   flex: 1;
+  // }
+  
+  .contact-right {
+    margin-top: 50px;
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact-title {
+    font-size: 50px;
+    width: 80%;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+  }
+  
+  .contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  .contact-desc {
+    font-size: 30px;
+  }
+  
+
+
+
+
+.left {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  
+  .right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    border-radius: 50%;
+    height: 95%;
+    width: 95%;
+    margin: auto;
+    position: relative;
+   
+    right: -250px;
+    
 
     h2 {
       font-size: 30px;
+      margin-right: 125px;
     }
+
+ 
 
     form {
       width: 70%;
-      height: 70%;
+      height: 45%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
+      margin-right: 125px;
 
       input {
         width: 300px;
