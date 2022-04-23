@@ -19,20 +19,35 @@ import "./credentialsCard.scss";
   
 
 
-  const education = ['James', 'Paul', 'John', 'George', 'Ringo'];
+  const education = [
+    {title: 'The Ohio State University', body: 'BS - Cell Bio'}, 
+    {title: 'Colorado State University', body: 'Biomedical Science'}
+  ];
   
 
-export default function CredentialsCard() {
-    return (
-      <div>
-      {education.map((education, index) => (
-        <li key={index}>
-          {education}
-        </li>
-      ))}
-    </div>
-    );
-  }
+  export default function CredentialsCard() {
+        return (
+            <div>
+              {education.map((education) => (
+                <p>
+                  {education.title} {education.body}
+                </p>
+              )
+              )}
+            </div> 
+        )};
+
+// export default function CredentialsCard() {
+//     return (
+//       <div>
+//       {education.map((education, index) => (
+//         <li key={index}>
+//           {education}
+//         </li>
+//       ))}
+//     </div>
+//     );
+//   }
 
 
 

@@ -69,16 +69,7 @@ export default function Portfolio() {
             </li>
           </div>
 
-          <div className="item">
-            <li>
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"
-                alt=""
-                onClick={employeeDir}
-              />
-              <h3>Employee Directory</h3>
-            </li>
-          </div>
+       
 
           <div className="item">
             <li>
@@ -99,13 +90,6 @@ export default function Portfolio() {
             </li>
           </div>
           <div className="item">
-            <li>
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"
-                alt=""
-              />
-              <h3>Readme Gen</h3>
-            </li>
           </div>
           <div className="item">
             <li>

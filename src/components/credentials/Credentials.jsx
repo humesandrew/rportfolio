@@ -55,6 +55,7 @@ export default function Credentials() {
               </div>
               <div className="right">
                 <img src="" alt="" />
+                
                 <CredentialsCard/>
               </div>
             </div>
