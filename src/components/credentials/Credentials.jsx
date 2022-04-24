@@ -1,35 +1,30 @@
 import { useState } from "react";
 import "./credentials.scss";
+import CredentialsCard from "../credentialsCard/CredentialsCard";
+// import education from "../credentialsCard/CredentialsCard";
 
-export default function Works() {
+export default function Credentials() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "",
+
+      title: "Education",
+      desc: "University of Denver: Full-Stack Coding Bootcamp.",
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "",
+
+      title: "Volunteer",
+      desc: "Volunteer stuff.",
+      img: "",
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "",
+
+      title: "Publications",
+      desc: "The 2 publications.",
+      img: "",
     },
   ];
 
@@ -38,9 +33,9 @@ export default function Works() {
       ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
-  
+
   return (
-    <div className="works" id="works">
+    <div className="credentials" id="credentials">
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -50,19 +45,18 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
+                  
                   <div className="imgContainer">
                     <img src={d.icon} alt="" />
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
                 </div>
               </div>
               <div className="right">
-                <img
-                  src=""
-                  alt=""
-                />
+                <img src="" alt="" />
+                
+                <CredentialsCard/>
               </div>
             </div>
           </div>
