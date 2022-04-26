@@ -42,7 +42,7 @@ let resumeData = {
         "YearOfPassing":"2008",
       },
       {
-        "name":"The Ohio State University: Bachelor of Arts",
+        "name":"The Ohio State University",
         "degree":"Bachelor of Arts",
         "specialization":"Anthropology",
         "MonthOfPassing":"June",
@@ -96,6 +96,18 @@ let resumeData = {
           "name":"TrueIndependence",
           "role":"Secretary",
           "chapter":"Denver, CO"
+        }
+      ],
+
+      "publication":[
+        {
+          "name":"EyeNet Magazine",
+          "description":"Retinal Gene Therapy",
+        }, 
+        {
+          "name":"Retina Today",
+          "description":"24-g PPV for Endophth",
+         
         }
       ]
       

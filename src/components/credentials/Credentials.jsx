@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./credentials.scss";
 import VolunteerCard from "../volunteerCard/VolunteerCard";
 import EducationCard from "../educationCard/EducationCard";
+import PublicationsCard from "../publicationsCard/PublicationsCard";
 import resumeData from "../../resumeData.jsx";
 // import education from "../credentialsCard/CredentialsCard";
 
@@ -36,10 +37,16 @@ export default function Credentials() {
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
 
+
+  const handleSelect = (selectedIndex, e) => {
+    setCurrentSlide(selectedIndex);
+  };
+
   return (
     <div className="credentials" id="credentials">
+      <div className="credentialsCircle"></div>
       <div
-        className="slider"
+        className="slider" activeIndex={currentSlide} onSelect={handleSelect}
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
         {data.map((d) => (
@@ -51,15 +58,28 @@ export default function Credentials() {
                   <div className="imgContainer">
                     <img src={d.icon} alt="" />
                   </div>
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
+                  <h1>{d.title}</h1>
+                  <p></p>
                 </div>
               </div>
               <div className="right">
                 <img src="" alt="" />
                 
-                <VolunteerCard />
-             <EducationCard />
+                {console.log(currentSlide)}
+           
+       {currentSlide === 0 &&
+        <EducationCard />
+      }
+             
+             {currentSlide === 1 &&
+        <VolunteerCard />
+      }
+
+             {currentSlide === 2 &&
+        <PublicationsCard />
+      }
+
+
               </div>
             </div>
           </div>
