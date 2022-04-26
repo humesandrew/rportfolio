@@ -9,7 +9,7 @@ import "./app.scss";
 import { useState } from "react";
 
 
-
+import resumeData from './resumeData';
 
 
 
