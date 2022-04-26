@@ -6,7 +6,7 @@ import {portfolioData} from './portfolioData.jsx';
 
 
 
-export const PortfolioCard = ({ link, link2, text }) => {
+export const PortfolioCard = () => {
   return (
     <div className="portfolioCard">
       <h1>Not working</h1>
