@@ -21,24 +21,29 @@ let resumeData = {
     "website":"https://humesandrew.github.io/portfolio3/",
     "education":[
       {
-        "University of Denver":"Full-Stack Coding Bootcamp",
+        "name":"University of Denver",
+        "degree": "Certification",
+        "specialization": "Full-Stack Coding Bootcamp",
         "MonthOfPassing":"April",
         "YearOfPassing":"2022",
       },
       {
-        "Colorado State University":"Master of Science",
+        "name":"Colorado State University",
+        "degree": "Master of Science",
         "specialization":"Biomedical Science",
         "MonthOfPassing":"July",
         "YearOfPassing":"2013",
       },
       {
-        "The Ohio State University":"Bachelor of Science",
+       "name":"The Ohio State University",
+       "degree":"Bachelor of Science",
         "specialization":"Cell & Molecular Biology",
         "MonthOfPassing":"June",
         "YearOfPassing":"2008",
       },
       {
-        "The Ohio State University":"Bachelor of Arts",
+        "name":"The Ohio State University: Bachelor of Arts",
+        "degree":"Bachelor of Arts",
         "specialization":"Anthropology",
         "MonthOfPassing":"June",
         "YearOfPassing":"2008",
@@ -76,8 +81,25 @@ let resumeData = {
         "name":"project4",
         "description":"mobileapp",
         "imgurl":"images/portfolio/phone.jpg"
-      }
+      }, 
+
     ],
+      
+      "volunteer":[
+        {
+          "name":"The Foundation Fighting Blindness",
+          "role":"Chapter Leader and Professional Outreach Chair",
+          
+          "chapter":"Colorado Chapter"
+        }, 
+        {
+          "name":"TrueIndependence",
+          "role":"Secretary",
+          "chapter":"Denver, CO"
+        }
+      ]
+      
+    
 
   }
   
