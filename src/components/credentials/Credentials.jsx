@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./credentials.scss";
-import CredentialsCard from "../credentialsCard/CredentialsCard";
+import VolunteerCard from "../volunteerCard/VolunteerCard";
+import EducationCard from "../educationCard/EducationCard";
+import resumeData from "../../resumeData.jsx";
 // import education from "../credentialsCard/CredentialsCard";
 
 export default function Credentials() {
@@ -56,7 +58,8 @@ export default function Credentials() {
               <div className="right">
                 <img src="" alt="" />
                 
-                <CredentialsCard/>
+                <VolunteerCard />
+             <EducationCard />
               </div>
             </div>
           </div>

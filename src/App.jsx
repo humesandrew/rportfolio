@@ -27,7 +27,6 @@ function App() {
       <div className="sections">
         <Intro/>
         <Portfolio/>
-    
         <Credentials/>
         <Contact/>
 

@@ -1,6 +1,6 @@
 
-import "./credentialsCard.scss";
-
+import "./volunteerCard.scss";
+import resumeData from "../../resumeData.jsx";
 
 
   // const education = [
@@ -25,15 +25,10 @@ import "./credentialsCard.scss";
   ];
   
 
-  export default function CredentialsCard() {
+  export default function VolunteerCard() {
         return (
             <div>
-              {education.map((education) => (
-                <p>
-                  {education.title} {education.body}
-                </p>
-              )
-              )}
+             {resumeData.name}
             </div> 
         )};
 
