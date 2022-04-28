@@ -42,7 +42,7 @@ let resumeData = {
         "YearOfPassing":"2008",
       },
       {
-        "name":"The Ohio State University: Bachelor of Arts",
+        "name":"The Ohio State University",
         "degree":"Bachelor of Arts",
         "specialization":"Anthropology",
         "MonthOfPassing":"June",
@@ -97,9 +97,103 @@ let resumeData = {
           "role":"Secretary",
           "chapter":"Denver, CO"
         }
-      ]
+      ],
+      
+
+
+      "project":[
+        {
+          "id":"1",
+          "name":"Java 4 JavaScripters",
+          "description":"A full-stack MERN application that functions as an e-commerce site for a local coffee producer.",
+          "technologies":"MongoDB, Express, React, Node, GraphQL, MaterialUI",
+          "url":"https://java4jsrs.herokuapp.com/",
+          "url2":"https://github.com/stuartwood2010/SW_Java4Javascripters",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          
+        }, 
+        {
+          "id":"2",
+          "name":"ChartMd",
+          "description":"An interactive application that allows doctors to leave notes and communicate with patients.",
+          "technologies":"Bootstrap, Handlebars, MySql",
+          "url":"https://chartmd.herokuapp.com/",
+          "url2":"https://github.com/stuartwood2010/chartMd_app",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+        },
+        {
+          "id":"3",
+          "name":"Belly-Buster",
+          "description":"An interactive application that allows doctors to leave notes and communicate with patients.",
+          "technologies":"JavaScript, HTML, CSS",
+          "url":"https://humesandrew.github.io/Belly-Buster/",
+          "url2":"https://github.com/humesandrew/Belly-Buster",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+        },
+        {
+          "id":"4",
+          "name":"Portfolio - JavaScript",
+          "description":"My professional portfolio using vanilla JavaScript and Bootstrap",
+          "technologies":"JavaScript, HTML, CSS, Bootstrap",
+          "url":"https://humesandrew.github.io/Belly-Buster/",
+          "url2":"https://github.com/humesandrew/Belly-Buster",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+        },
+     
+        {
+          "id":"5",
+          "name":"E-Commerce Backside",
+          "description":"An ORM-based backend for an e-commerce store.",
+          "technologies":"Node, Express, MySql2, Sequelize, Postman/Insomnia",
+          "url":"https://github.com/humesandrew/ecommerceWorking",
+          "url2":"https://github.com/humesandrew/ecommerceWorking",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+        },
+        {
+          "id":"6",
+          "name":"Readme Generator",
+          "description":"An Node.js application that will generate readme files with user input.",
+          "technologies":"Node",
+          "url":"https://github.com/humesandrew/readmegen",
+          "url2":"https://github.com/humesandrew/readmegen",
+          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+        },
+        
+        
+      ],
+      
+
+
+
+
+      "publication":[
+        {
+          "name":"EyeNet Magazine",
+          "description":"Retinal Gene Therapy",
+        }, 
+        {
+          "name":"Retina Today",
+          "description":"24-g PPV for Endophth",
+         
+        }
+      ],
       
     
+
+
+
+      
+      "publication":[
+        {
+          "name":"EyeNet Magazine",
+          "description":"Retinal Gene Therapy",
+        }, 
+        {
+          "name":"Retina Today",
+          "description":"24-g PPV for Endophth",
+         
+        }
+      ]
 
   }
   

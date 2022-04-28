@@ -76,9 +76,19 @@ export default function Portfolio() {
           </div>
 
 
-       
+ 
+        </ul>
+      </div>
+    </div>
+  );
+}
 
-          <div className="item">
+
+
+
+      
+
+          {/* <div className="item">
             <li>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"
@@ -113,11 +123,6 @@ export default function Portfolio() {
                 alt=""
               />
               <h3>Weather App</h3>
-            </li>
+            </li> */}
             
-          </div>
-        </ul>
-      </div>
-    </div>
-  );
-}
+          {/* </div> */}

@@ -1,28 +1,43 @@
 
 import React from 'react';
-import './portfoliocard.scss';
+import "./portfolioCard.scss";
+import resumeData from "../../resumeData.jsx";
 
-import {portfolioData} from './portfolioData.jsx';
+const chartMd = function() {
+  window.open("https://chartmd.herokuapp.com/");
+}
 
 
 
-export const PortfolioCard = () => {
-  return (
-    <div className="portfolioCard">
-      <h1>Not working</h1>
-        {/* <img src={portfolioData.img} alt="" className="image"></img> */}
-      
-      <div>
-      <a href={portfolioData.link2} target="_blank" rel="noreferrer">
-        {/* <img src={github} alt="" className="icon"></img> */}
-      </a>
-      <a href={portfolioData.link} target="_blank" rel="noreferrer">
-        {/* <img src={www} alt="" className="icon"></img> */}
-      </a>
-      <h5 className="text">{portfolioData.text}</h5>
-      </div>
-    </div>
-  )
-  }
+  export default function VolunteerCard() {
+        return (
+            <div>
+               <ul className="projectList">
+            {
+              resumeData.project && resumeData.project.map((item)=>{
+                return(
+                  <li>
+                   <h1> {item.name}</h1>
+                  <div className="imageDiv">
+                  <img
+                src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"}
+                alt=""
+                onClick={chartMd}></img>
+                  </div>
+                  {item.url}
+              
+                  <br></br>
+                   {item.description}
+                  
+                  </li>
+                )
+              })
+            }
+          </ul>
+            </div>
 
-  export default PortfolioCard;
+        )};
+            
+        
+
+
