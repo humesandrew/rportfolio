@@ -9,27 +9,40 @@ const chartMd = function() {
 
 
 
-  export default function VolunteerCard() {
+  export default function PortfolioCard() {
         return (
-            <div>
-               <ul className="projectList">
+            <div className="projectList">
+               <ul className="projectUl">
             {
               resumeData.project && resumeData.project.map((item)=>{
                 return(
-                  <li>
-                   <h1> {item.name}</h1>
+                  <div className="projectLi">
+                   <h2> {item.name}</h2>
                   <div className="imageDiv">
+                  <a href={item.url} target="_blank" rel="noreferrer">
                   <img
                 src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"}
                 alt=""
-                onClick={chartMd}></img>
-                  </div>
-                  {item.url}
+                width={450} height={100}
               
-                  <br></br>
+                ></img>
+
+
+
+   
+    </a>
+                  </div>
+                
+                    <div className="descriptionDiv">
                    {item.description}
-                  
-                  </li>
+                   </div>
+
+                   <div className="repoDiv">
+                  <a href={item.url2} target="_blank" rel="noreferrer">
+                    Click for repository
+                  </a>
+                  </div>
+                  </div>
                 )
               })
             }

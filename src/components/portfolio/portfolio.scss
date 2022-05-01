@@ -15,12 +15,15 @@
 }
 
 ul {
-    margin: 0px;
-    padding: 0;
+  
+    padding: 5px;
     list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2px;
+
 
 li {
     font-size: 12px;
@@ -33,67 +36,63 @@ li {
     color: black;
     flex-wrap: wrap;
     // border: 5px solid white;
-    border-radius: 20px;
+    border-radius: 50px;
     &.active{
         background-color: $mainColor;
         color: yellow;
     }
 }
 
-.container {
-    width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+
+
 }
 
 .item {
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    border: 5px solid rgb(240, 239, 239);
-    margin: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    position: relative;
-    overflow: hidden;
-    transition: all .5s ease;
-    cursor: pointer;
-    
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  border: 5px solid rgb(240, 239, 239);
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  transition: all .5s ease;
+  cursor: pointer;
+  
 
-    h3 {
-        position: absolute;
-        font-size: 20px;
-      }
+  h3 {
+      position: absolute;
+      font-size: 20px;
+    }
+
+    img {
+      width: 75%;
+      height: 75%;
+      object-fit: contain;
+      z-index: 1;
+    }
+
+    &:hover {
+      background-color: $mainColor;
+      
+
 
       img {
-        width: 75%;
-        height: 75%;
-        object-fit: contain;
-        z-index: 1;
+        opacity: 0.2;
+        z-index: 0;
       }
-
-      &:hover {
-        background-color: $mainColor;
-        
-
-
-        img {
-          opacity: 0.2;
-          z-index: 0;
-        }
-      }
-       
-
-
     }
+     
+
+
+  }
 }
 
-}
+
 
 .item-footer {
-  text-align: center;
+text-align: center;
 }
