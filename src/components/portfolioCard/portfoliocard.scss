@@ -1,5 +1,9 @@
 
 
+.projectUl{
+    box-shadow: 0 3px 10px var(--dark);
+}
+
 
 .projectLi {
     background-color: #E9D8A6;
@@ -12,6 +16,8 @@ align-items: center;
 text-align: center;
 width: 30%;
 margin: 5px;
+overflow: hidden;
+
 
 
 

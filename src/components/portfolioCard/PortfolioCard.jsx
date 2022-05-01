@@ -26,7 +26,7 @@ const chartMd = function() {
                   <img
                 src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"}
                 alt=""
-                width={475} height={100}
+                width={500} height={80}
               
                 ></img>
 

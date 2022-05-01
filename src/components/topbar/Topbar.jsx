@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </a>
           <div className="itemContainer">
             <Person className="icon" />
-            <span>Denver, CO</span>
+            <span>Andy Humes. <br></br>Denver, CO</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
