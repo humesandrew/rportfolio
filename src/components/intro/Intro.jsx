@@ -21,6 +21,7 @@ export default function Intro() {
           <h1>Andy Humes</h1>
           <h3>
             Junior Developer <span ref={textRef}></span>
+            
           </h3>
         </div>
         <a href="#portfolio">

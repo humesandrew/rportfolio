@@ -28,7 +28,7 @@ export default function Portfolio() {
 
 
 
-
+{/* 
           <div className="item" id="chartMd">
           
             <li>
@@ -74,7 +74,7 @@ export default function Portfolio() {
               <h3>Portfolio: JavaScript</h3>
             </li>
           </div>
-
+ */}
 
  
         </ul>

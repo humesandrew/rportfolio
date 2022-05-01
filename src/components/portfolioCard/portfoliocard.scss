@@ -1,4 +1,41 @@
 
-.imgdiv {
-    background-image: url("./placeholder.png")
+
+
+.projectLi {
+    background-color: green;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    // flex-wrap: wrap;
+align-items: center;
+text-align: center;
+width: 25%;
+margin: 5px;
+
+
+
+h2 {
+    margin-bottom: 0px;
+    background-color: tan;
+    width: 100%;
+    padding: 2px;
+}
+
+
+}
+
+
+.repoDiv {
+    width: 100%;
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.descriptionDiv {
+    padding: 3px;
+
 }
