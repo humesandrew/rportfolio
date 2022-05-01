@@ -3,15 +3,17 @@
 
 
 .portfolio {
-    background-color: lightgray;
+    background-color: #0A9396;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
     
     h1 {
         font-size: 40px;
     margin: 5px;
     overflow: hidden;
+    
 }
 
 ul {
@@ -21,7 +23,7 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 2px;
 
 
@@ -95,4 +97,19 @@ li {
 
 .item-footer {
 text-align: center;
+}
+
+
+.portfolioCircle {
+  width: 675px;
+  height: 675px;
+  background-color: #AE2012;
+  border-radius: 50%;
+
+  
+ margin-left: 450px;
+ flex: 1;
+
+margin-top: -675px;
+
 }

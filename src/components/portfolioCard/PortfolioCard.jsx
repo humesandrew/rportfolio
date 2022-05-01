@@ -11,7 +11,10 @@ const chartMd = function() {
 
   export default function PortfolioCard() {
         return (
+
+          
             <div className="projectList">
+                
                <ul className="projectUl">
             {
               resumeData.project && resumeData.project.map((item)=>{
@@ -23,7 +26,7 @@ const chartMd = function() {
                   <img
                 src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"}
                 alt=""
-                width={450} height={100}
+                width={475} height={100}
               
                 ></img>
 

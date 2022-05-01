@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .contact {
-  background-color: lightskyblue;
+  background-color: #EE9B00;
   display: flex;
   text-decoration: none;
 
@@ -16,7 +16,8 @@
   .contact-wrapper {
     height: 80%;
     width: 90%;
-    background-color: white;
+    background-color: #94D2BD;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -45,7 +46,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: white;
+    background-color: #94D2BD;
   
   }
 
@@ -85,7 +86,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #94D2BD;
   }
   
   .contact-title {
@@ -135,7 +136,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: crimson;
+    background-color: #005F73;
     border-radius: 50%;
     height: 95%;
     width: 95%;
