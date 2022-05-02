@@ -26,6 +26,7 @@ let resumeData = {
         "specialization": "Full-Stack Coding Bootcamp",
         "MonthOfPassing":"April",
         "YearOfPassing":"2022",
+        "image":"img/dulogo.png"
       },
       {
         "name":"Colorado State University",
@@ -33,6 +34,7 @@ let resumeData = {
         "specialization":"Biomedical Science",
         "MonthOfPassing":"July",
         "YearOfPassing":"2013",
+        "image":"img/csulogo.png"
       },
       {
        "name":"The Ohio State University",
@@ -40,6 +42,8 @@ let resumeData = {
         "specialization":"Cell & Molecular Biology",
         "MonthOfPassing":"June",
         "YearOfPassing":"2008",
+        "image":"img/osulogo.png",
+        
       },
       {
         "name":"The Ohio State University",
@@ -47,6 +51,7 @@ let resumeData = {
         "specialization":"Anthropology",
         "MonthOfPassing":"June",
         "YearOfPassing":"2008",
+        "image":"img/osulogo.png"
       }
     ],
     "skillsDescription":"Your skills here",

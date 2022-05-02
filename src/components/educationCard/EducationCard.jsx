@@ -11,12 +11,18 @@ export default function EducationCard() {
       {
         resumeData.education && resumeData.education.map((item)=>{
           return(
-            <li>
+           <div>
+           <li>
+          
+        
              <h1> {item.name}</h1>
             
             {item.degree}: <span></span>
            {item.specialization}
+      
             </li>
+         <img className="imgLogo" src={item.image} alt=""></img>
+            </div>
           )
         })
       }
