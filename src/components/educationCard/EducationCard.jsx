@@ -17,7 +17,7 @@ export default function EducationCard() {
         
              <h1> {item.name}</h1>
             
-            {item.degree}: <span></span>
+            <h3>{item.degree}: </h3><span></span>
            {item.specialization}
       
             </li>

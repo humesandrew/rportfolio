@@ -92,15 +92,19 @@ let resumeData = {
       
       "volunteer":[
         {
+          "id":"1",
           "name":"The Foundation Fighting Blindness",
           "role":"Chapter Leader and Professional Outreach Chair",
-          
-          "chapter":"Colorado Chapter"
+          "chapter":"Colorado Chapter",
+          "url":"https://www.fightingblindness.org/chapters/denver-chapter"
+
         }, 
         {
+          "id":"2",
           "name":"TrueIndependence",
           "role":"Secretary",
-          "chapter":"Denver, CO"
+          "chapter":"Denver, CO",
+          "url":"https://mytrueindependence.org/"
         }
       ],
       

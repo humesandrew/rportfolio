@@ -15,11 +15,12 @@ import resumeData from "../../resumeData.jsx";
                   <li>
                    <h1> {item.name}</h1>
                   
-                  {item.role}
+                <h3>  {item.role}</h3>
               
-                  <br></br>
-                   {item.chapter}
                
+                   {item.chapter}
+                   <br></br>
+               <a href={item.url}>Click to visit.</a>
                   </li>
                   <br></br>
                   </div>
