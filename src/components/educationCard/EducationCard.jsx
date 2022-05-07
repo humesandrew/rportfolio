@@ -21,7 +21,8 @@ export default function EducationCard() {
            {item.specialization}
       
             </li>
-         <img className="imgLogo" src={item.image} alt=""></img>
+            <br></br>
+         {/* <img className="imgLogo" src={item.image} alt=""></img> */}
             </div>
           )
         })

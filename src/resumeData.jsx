@@ -200,32 +200,24 @@ let resumeData = {
 
       "publication":[
         {
+          "id":"1",
           "name":"EyeNet Magazine",
-          "description":"Retinal Gene Therapy",
+          "description":"Inherited Retinal Disease: Redefining Patient Care",
+          "image":"img/May_2018_Feature.pdf",
+          "date":"May, 2018"
+         
         }, 
         {
+          "id":"2",
           "name":"Retina Today",
-          "description":"24-g PPV for Endophth",
+          "description":"A Simplified Technique for In-Office Tap and Injection for Endophthalmitis",
+          "image":"img/Retina_Pearls_10-2018.pdf",
+         "date":"October, 2018"
          
         }
       ],
       
-    
-
-
-
-      
-      "publication":[
-        {
-          "name":"EyeNet Magazine",
-          "description":"Retinal Gene Therapy",
-        }, 
-        {
-          "name":"Retina Today",
-          "description":"24-g PPV for Endophth",
-         
-        }
-      ]
+  
 
   }
   

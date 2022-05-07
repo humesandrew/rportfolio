@@ -11,6 +11,7 @@ import resumeData from "../../resumeData.jsx";
             {
               resumeData.volunteer && resumeData.volunteer.map((item)=>{
                 return(
+                  <div>
                   <li>
                    <h1> {item.name}</h1>
                   
@@ -18,12 +19,15 @@ import resumeData from "../../resumeData.jsx";
               
                   <br></br>
                    {item.chapter}
-                  
+               
                   </li>
+                  <br></br>
+                  </div>
                 )
               })
             }
           </ul>
+       
             </div>
 
         )};
