@@ -1,5 +1,5 @@
 import "./intro.scss";
-
+import resumeData from "../../resumeData.jsx";
 import { useEffect, useRef } from "react";
 
 export default function Intro() {
@@ -7,13 +7,14 @@ export default function Intro() {
 
 
 
+
   return (
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="
-          ../contact/Andy_1.jpg" alt="" />
+        <img className="introPicture" src={resumeData.image} alt="" />
         </div>
+      
       </div>
       <div className="right">
         <div className="wrapper">
@@ -21,7 +22,8 @@ export default function Intro() {
           <h1>Andy Humes</h1>
           <h3>
             Junior Developer <span ref={textRef}></span>
-            
+          
+         
           </h3>
         </div>
         <a href="#portfolio">

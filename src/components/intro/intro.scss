@@ -14,8 +14,8 @@
     overflow: hidden;
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
+      width: 800px;
+      height: 800px;
       background-color: #BB3E03;
       border-radius: 50%;
       display: flex;
@@ -30,13 +30,25 @@
       }
 
       img {
-        height: 90%;
+        max-width: 100%;
+    height: auto;
 
         @include mobile{
           height: 50%;
         }
       }
     }
+  }
+
+  .introPicture {
+ 
+  
+    position: relative;
+    margin-top: -75vh;
+   
+   
+  
+
   }
   .right {
     flex: 0.5;

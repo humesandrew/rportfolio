@@ -1,7 +1,9 @@
 let resumeData = {
     "imagebaseurl":"https://humesandrew.github.io/",
     "name": "Andy Humes",
+    "image":"img/Andy_2(profile).jpg",
     "role": "Full Stack Developer",
+    "resume":"img/Andy_Humes_resume.pdf",
     "linkedinId":"andy-humes-72075559",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
@@ -198,8 +200,7 @@ let resumeData = {
         
       ],
       
-
-
+     
 
 
       "publication":[

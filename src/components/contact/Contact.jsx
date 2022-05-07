@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./contact.scss";
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+
+import resumeData from "../../resumeData.jsx";
 
 
 export default function Contact() {
@@ -17,7 +18,7 @@ export default function Contact() {
     function handleButton(e) {
       e.preventDefault();
       
-    window.open('Andy_Humes_resume.pdf');
+    // window.open('Andy_Humes_resume.pdf');//
      
     }
     
@@ -41,7 +42,7 @@ export default function Contact() {
     <Card.Text>
      <h4> Open to work. Based in Denver, CO.  </h4>
     </Card.Text>
-    <Button className="d-grid gap-2" variant="secondary" size="lg" onClick={handleButton}>Resume</Button>
+  
 
     
   </Card.Body>
@@ -57,12 +58,16 @@ export default function Contact() {
              <a href="mailto:humes.andrew@gmail.com">Email</a>
             </div>
             <div className="contact-info-item">
-              <img className="contact-icon" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9CdzX-RcAk-wo6ODxTitKDcN5yNeAwz6Ug&usqp=CAU' alt="" target="_blank" rel="noreferrer"/>
+              <img className="contact-icon" src='https://cdn.iconscout.com/icon/free/png-256/mail-1138-827052.png' alt="" target="_blank" rel="noreferrer"/>
               <a href="https://github.com/humesandrew">Github</a>
             </div>
             <div className="contact-info-item">
               <img className="contact-icon" src="https://cdn.iconscout.com/icon/free/png-256/mail-1138-827052.png" alt="" target="_blank" rel="noreferrer"/>
               <a href="https://www.linkedin.com/in/andy-humes-72075559/">Linkedin</a>
+            </div>
+            <div className="contact-info-item">
+              <img className="contact-icon" src="https://cdn.iconscout.com/icon/free/png-256/mail-1138-827052.png" alt="" target="_blank" rel="noreferrer"/>
+              <a href={resumeData.resume} target="_blank" rel="noreferrer">Resume</a>
             </div>
           </div>
           <div className="contact-right">
