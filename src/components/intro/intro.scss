@@ -44,8 +44,8 @@
  
   
     position: relative;
-    margin-top: -75vh;
-   
+    // margin-top: -75vh;
+   margin: auto;
    
   
 
@@ -87,7 +87,7 @@
 
         span {
           font-size: inherit;
-          color: crimson;
+          color: $mainColor;
         }
 
         .ityped-cursor {

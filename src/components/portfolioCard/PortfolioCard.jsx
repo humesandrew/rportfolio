@@ -1,6 +1,6 @@
 
 import React from 'react';
-import "./portfolioCard.scss";
+import "./portfoliocard.scss";
 import resumeData from "../../resumeData.jsx";
 
 const chartMd = function() {
