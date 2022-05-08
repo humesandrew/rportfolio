@@ -1,8 +1,12 @@
 
 
+.projectUl{
+    box-shadow: 0 3px 10px var(--dark);
+}
+
 
 .projectLi {
-    background-color: green;
+    background-color: #E9D8A6;
     border-radius: 25px;
     display: flex;
     justify-content: space-between;
@@ -10,14 +14,16 @@
     // flex-wrap: wrap;
 align-items: center;
 text-align: center;
-width: 25%;
+width: 30%;
 margin: 5px;
+overflow: hidden;
+
 
 
 
 h2 {
     margin-bottom: 0px;
-    background-color: tan;
+    background-color: #EE9B00;
     width: 100%;
     padding: 2px;
 }
@@ -28,7 +34,7 @@ h2 {
 
 .repoDiv {
     width: 100%;
-    background-color: yellow;
+    background-color: #001219;
 }
 
 a {
@@ -36,6 +42,7 @@ a {
   }
 
 .descriptionDiv {
-    padding: 3px;
+    padding: 5px;
 
 }
+

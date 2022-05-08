@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .intro {
-  background-color: white;
+  background-color: #94D2BD;
   display: flex;
 
   @include mobile{
@@ -14,27 +14,41 @@
     overflow: hidden;
 
     .imgContainer {
-      width: 700px;
-      height: 700px;
-      background-color: crimson;
+      width: 800px;
+      height: 800px;
+      background-color: #BB3E03;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
       float: right;
+      margin-top: 25px;
+      
 
       @include mobile{
         align-items: flex-start;
       }
 
       img {
-        height: 90%;
+        max-width: 100%;
+    height: auto;
 
         @include mobile{
           height: 50%;
         }
       }
     }
+  }
+
+  .introPicture {
+ 
+  
+    position: relative;
+    // margin-top: -75vh;
+   margin: auto;
+   
+  
+
   }
   .right {
     flex: 0.5;
@@ -73,7 +87,7 @@
 
         span {
           font-size: inherit;
-          color: crimson;
+          color: $mainColor;
         }
 
         .ityped-cursor {

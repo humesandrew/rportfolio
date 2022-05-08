@@ -1,7 +1,9 @@
 let resumeData = {
     "imagebaseurl":"https://humesandrew.github.io/",
     "name": "Andy Humes",
+    "image":"img/Andy_2(profile).jpg",
     "role": "Full Stack Developer",
+    "resume":"img/Andy_Humes_resume.pdf",
     "linkedinId":"andy-humes-72075559",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
@@ -26,6 +28,7 @@ let resumeData = {
         "specialization": "Full-Stack Coding Bootcamp",
         "MonthOfPassing":"April",
         "YearOfPassing":"2022",
+        "image":"img/dulogo.png"
       },
       {
         "name":"Colorado State University",
@@ -33,6 +36,7 @@ let resumeData = {
         "specialization":"Biomedical Science",
         "MonthOfPassing":"July",
         "YearOfPassing":"2013",
+        "image":"img/csulogo.png"
       },
       {
        "name":"The Ohio State University",
@@ -40,6 +44,8 @@ let resumeData = {
         "specialization":"Cell & Molecular Biology",
         "MonthOfPassing":"June",
         "YearOfPassing":"2008",
+        "image":"img/osulogo.png",
+        
       },
       {
         "name":"The Ohio State University",
@@ -47,6 +53,7 @@ let resumeData = {
         "specialization":"Anthropology",
         "MonthOfPassing":"June",
         "YearOfPassing":"2008",
+        "image":"img/osulogo.png"
       }
     ],
     "skillsDescription":"Your skills here",
@@ -87,15 +94,19 @@ let resumeData = {
       
       "volunteer":[
         {
+          "id":"1",
           "name":"The Foundation Fighting Blindness",
           "role":"Chapter Leader and Professional Outreach Chair",
-          
-          "chapter":"Colorado Chapter"
+          "chapter":"Colorado Chapter",
+          "url":"https://www.fightingblindness.org/chapters/denver-chapter"
+
         }, 
         {
+          "id":"2",
           "name":"TrueIndependence",
           "role":"Secretary",
-          "chapter":"Denver, CO"
+          "chapter":"Denver, CO",
+          "url":"https://mytrueindependence.org/"
         }
       ],
       
@@ -189,38 +200,29 @@ let resumeData = {
         
       ],
       
-
-
+     
 
 
       "publication":[
         {
+          "id":"1",
           "name":"EyeNet Magazine",
-          "description":"Retinal Gene Therapy",
+          "description":"Inherited Retinal Disease: Redefining Patient Care",
+          "image":"img/May_2018_Feature.pdf",
+          "date":"May, 2018"
+         
         }, 
         {
+          "id":"2",
           "name":"Retina Today",
-          "description":"24-g PPV for Endophth",
+          "description":"A Simplified Technique for In-Office Tap and Injection for Endophthalmitis",
+          "image":"img/Retina_Pearls_10-2018.pdf",
+         "date":"October, 2018"
          
         }
       ],
       
-    
-
-
-
-      
-      "publication":[
-        {
-          "name":"EyeNet Magazine",
-          "description":"Retinal Gene Therapy",
-        }, 
-        {
-          "name":"Retina Today",
-          "description":"24-g PPV for Endophth",
-         
-        }
-      ]
+  
 
   }
   

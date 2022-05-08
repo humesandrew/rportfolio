@@ -20,10 +20,11 @@ export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
-      <div className="container">
     
+      <div className="container">
+   
         <ul>
-        
+       
         <PortfolioCard />
 
 
@@ -78,6 +79,7 @@ export default function Portfolio() {
 
  
         </ul>
+        <div className="portfolioCircle">Hello There</div>
       </div>
     </div>
   );

@@ -11,12 +11,22 @@ export default function PublicationsCard() {
       {
         resumeData.publication && resumeData.publication.map((item)=>{
           return(
+            <div>
             <li>
+    
              <h1> {item.name}</h1>
             
-            {item.description}: <span></span>
+            <h3>{item.description}</h3>
+            
+           Originally published in {item.date}.
+            <br></br>
+          <a href={item.image}  target="_blank" rel="noreferrer">Click to read</a>
+        
+            <span></span>
          
             </li>
+            <br></br>
+            </div>
           )
         })
       }

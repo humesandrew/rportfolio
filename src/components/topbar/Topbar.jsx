@@ -11,11 +11,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </a>
           <div className="itemContainer">
             <Person className="icon" />
-            <span>Denver, CO</span>
+            <span>Andy Humes. <br></br>Denver, CO</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
-            <span>humes.andrew@gmail.com</span>
+            <span><a href="mailto:humes.andrew@gmail.com">humes.andrew@gmail.com</a></span>
           </div>
         </div>
         <div className="right">

@@ -3,15 +3,19 @@
 
 
 .portfolio {
-    background-color: lightgray;
+    background-color: #0A9396;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 3px 10px var(--dark);
     
     h1 {
         font-size: 40px;
     margin: 5px;
     overflow: hidden;
+    
 }
 
 ul {
@@ -21,9 +25,10 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 2px;
-
+    overflow: hidden;
+    box-shadow: 0 3px 10px var(--dark);
 
 li {
     font-size: 12px;
@@ -35,6 +40,8 @@ li {
     flex-direction: row;
     color: black;
     flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: 0 3px 10px var(--dark);
     // border: 5px solid white;
     border-radius: 50px;
     &.active{
@@ -61,6 +68,7 @@ li {
   overflow: hidden;
   transition: all .5s ease;
   cursor: pointer;
+  overflow: hidden;
   
 
   h3 {
@@ -95,4 +103,20 @@ li {
 
 .item-footer {
 text-align: center;
+}
+
+
+.portfolioCircle {
+  width: 670px;
+  height: 670px;
+  background-color: #AE2012;
+  border-radius: 50%;
+
+  
+ margin-left: 450px;
+ flex: 1;
+
+margin-top: -625px;
+overflow: hidden;
+
 }
