@@ -46,7 +46,10 @@
     position: relative;
     // margin-top: -75vh;
    margin: auto;
-   
+   height: 50%;
+   width: 50%;
+   border-radius: 50%;
+   box-shadow: 5px 5px 50px black;
   
 
   }
@@ -88,6 +91,7 @@
         span {
           font-size: inherit;
           color: $mainColor;
+     
         }
 
         .ityped-cursor {
