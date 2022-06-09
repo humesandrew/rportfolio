@@ -40,7 +40,11 @@ export default function Contact() {
   <Card.Body>
     <Card.Title><h2>Andy Humes</h2></Card.Title>
     <Card.Text>
-     <h4> Open to work. Based in Denver, CO.  </h4>
+     <h4> Determined, junior level coder versed in many coding languages with
+proficiency in the front end frameworks. Offers a unique adaptability,
+stemming from a heavy background in technical skills, complex systems,
+and analysis. Strong customer service background from many years in
+health care. </h4>
     </Card.Text>
   
 
