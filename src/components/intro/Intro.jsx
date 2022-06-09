@@ -11,7 +11,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Junior Developer", "Propetual learner", "Open to work", "Denver, CO"],
+      strings: ["Junior Developer", "Perpeutal learner", "Open to work", "Denver, CO"],
     });
   }, []);
 
