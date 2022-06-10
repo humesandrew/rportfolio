@@ -36,15 +36,15 @@ export default function Contact() {
          
 
           <Card style={{ width: '24rem', height: '50vh' }}>
-  <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/92492210?s=400&u=ffa0892503caf8ec65d7e895072d22e7c6c01497&v=4" style={{ height:'400px', borderRadius:'50%' }}/>
+  <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/92492210?s=400&u=ffa0892503caf8ec65d7e895072d22e7c6c01497&v=4" style={{ height:'300px', borderRadius:'50%' }}/>
   <Card.Body>
     <Card.Title><h2>Andy Humes</h2></Card.Title>
     <Card.Text>
-     <h4> Determined, junior level coder versed in many coding languages with
+     <h5> Determined, junior level coder versed in many coding languages with
 proficiency in the front end frameworks. Offers a unique adaptability,
 stemming from a heavy background in technical skills, complex systems,
 and analysis. Strong customer service background from many years in
-health care. </h4>
+health care. </h5>
     </Card.Text>
   
 
