@@ -5,6 +5,20 @@ import Card from 'react-bootstrap/Card';
 import resumeData from "../../resumeData.jsx";
 
 
+const emailBtn = function() {
+  window.open('mailto:humes.andrew@gmail.com')
+}
+
+const githubBtn = function() {
+  window.open("https://github.com/humesandrew/");
+}
+const linkedinBtn = function() {
+  window.open("https://www.linkedin.com/in/andy-humes-72075559/");
+}
+const resumeBtn = function() {
+  window.open(resumeData.resume);
+}
+
 export default function Contact() {
   const [message, setMessage] = useState(false);
 
@@ -35,12 +49,16 @@ export default function Contact() {
           <div className="contact-right">
          
 
-          <Card style={{ width: '24rem', height: '50vh' }}>
-  <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/92492210?s=400&u=ffa0892503caf8ec65d7e895072d22e7c6c01497&v=4" style={{ height:'400px', borderRadius:'50%' }}/>
+          <Card style={{ width: '24rem', height: '100vh' }}>
+  <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/92492210?s=400&u=ffa0892503caf8ec65d7e895072d22e7c6c01497&v=4" style={{ height:'275px', borderRadius:'50%' }}/>
   <Card.Body>
-    <Card.Title><h2>Andy Humes</h2></Card.Title>
+    <Card.Title><h1>Andy Humes</h1></Card.Title>
     <Card.Text>
-     <h4> Open to work. Based in Denver, CO.  </h4>
+     <h4> Determined, junior level coder versed in many coding languages with
+proficiency in the front end frameworks. Offers a unique adaptability,
+stemming from a heavy background in technical skills, complex systems,
+and analysis. Strong customer service background from many years in
+health care. </h4>
     </Card.Text>
   
 
@@ -51,7 +69,12 @@ export default function Contact() {
           </div>
         <div className="contact-left">
           <h1></h1>
-          <div className="contact-info">
+          <button class="button-78" role="button" onClick={emailBtn}>Email</button>
+          <button class="button-78" role="button" onClick={githubBtn}>Github</button>
+          <button class="button-78" role="button" onClick={linkedinBtn}>Linkedin</button>
+          <button class="button-78" role="button" onClick={resumeBtn}>Resume</button>
+
+          {/* <div className="contact-info">
             <div className="contact-info-item">
               <img className="contact-icon" src="https://cdn.iconscout.com/icon/free/png-256/mail-1138-827052.png" alt="" target="_blank" rel="noreferrer"/>
             
@@ -69,8 +92,8 @@ export default function Contact() {
               <img className="contact-icon" src="https://cdn.iconscout.com/icon/free/png-256/mail-1138-827052.png" alt="" target="_blank" rel="noreferrer"/>
               <a href={resumeData.resume} target="_blank" rel="noreferrer">Resume</a>
             </div>
-          </div>
-          <div className="contact-right">
+          </div> */}
+          <div>
           
             </div>
             </div>

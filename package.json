@@ -2,6 +2,9 @@
   "name": "rportfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -30,7 +33,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "https://humesandrew.github.io/rportfolio"
+
+    "homepage": "https://github.com/humesandrew/rportfolio"
+
   }
 }
