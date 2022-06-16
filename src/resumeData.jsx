@@ -24,8 +24,8 @@ let resumeData = {
     "education":[
       {
         "name":"University of Denver",
-        "degree": "Certification",
-        "specialization": "Full-Stack Coding Bootcamp",
+        "degree": "Certification of Completion",
+        "specialization": "Full Stack Coding Bootcamp",
         "MonthOfPassing":"April",
         "YearOfPassing":"2022",
         "image":"img/dulogo.png"
