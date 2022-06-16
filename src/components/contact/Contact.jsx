@@ -35,16 +35,16 @@ export default function Contact() {
           <div className="contact-right">
          
 
-          <Card style={{ width: '24rem', height: '50vh' }}>
-  <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/92492210?s=400&u=ffa0892503caf8ec65d7e895072d22e7c6c01497&v=4" style={{ height:'300px', borderRadius:'50%' }}/>
+          <Card style={{ width: '24rem', height: '100vh' }}>
+  <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/92492210?s=400&u=ffa0892503caf8ec65d7e895072d22e7c6c01497&v=4" style={{ height:'275px', borderRadius:'50%' }}/>
   <Card.Body>
-    <Card.Title><h2>Andy Humes</h2></Card.Title>
+    <Card.Title><h1>Andy Humes</h1></Card.Title>
     <Card.Text>
-     <h5> Determined, junior level coder versed in many coding languages with
+     <h4> Determined, junior level coder versed in many coding languages with
 proficiency in the front end frameworks. Offers a unique adaptability,
 stemming from a heavy background in technical skills, complex systems,
 and analysis. Strong customer service background from many years in
-health care. </h5>
+health care. </h4>
     </Card.Text>
   
 
@@ -74,7 +74,7 @@ health care. </h5>
               <a href={resumeData.resume} target="_blank" rel="noreferrer">Resume</a>
             </div>
           </div>
-          <div className="contact-right">
+          <div>
           
             </div>
             </div>

@@ -25,9 +25,10 @@
    padding: 20px;
    font-weight: bold;
    font-size: 20px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px, rgba(0, 0, 0, 0.3) 0px 7px 13px -5px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
 
-
+  
 
 
 .contact-container {
@@ -42,36 +43,32 @@
 
 
 
-  .contact-left {
-   height: 100%;
-   width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #94D2BD;
-  
-  }
+
 
   .card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    // justify-content: space-around;
     // text-align: center;
     padding: 20px;
-    height: 75%;
+    height: 100%;
+  width: 100%;
+text-align: left;
 
+h4 {
+  margin-top: 30px;
+}
   }
 
   .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+   
     text-align: center;
 
-    
+  }
   
   h1 {
     display: flex;
@@ -79,18 +76,30 @@
     align-items: center;
     justify-content: center;
   }
-}
+
   
   .contact-right {
     
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    
-    background-color: #94D2BD;
+    height: 100%;
+    width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    //  justify-content: space-around;
+     background-color: #94D2BD;
   }
+
+
+  .contact-left {
+    height: 100%;
+    width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     // justify-content: space-around;
+     background-color: #94D2BD;
+   
+   }
   
   .contact-title {
     font-size: 50px;
@@ -147,7 +156,8 @@ a {
     position: relative;
    
     right: -250px;
-    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px, rgba(0, 0, 0, 0.3) 0px 7px 13px -5px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
 
     h2 {
       font-size: 30px;
