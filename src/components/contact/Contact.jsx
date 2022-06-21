@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react";
 import "./contact.scss";
 import Card from 'react-bootstrap/Card';

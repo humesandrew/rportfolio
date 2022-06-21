@@ -1,5 +1,8 @@
+import React from 'react';
+
 import "./intro.scss";
 import resumeData from "../../resumeData.jsx";
+
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 

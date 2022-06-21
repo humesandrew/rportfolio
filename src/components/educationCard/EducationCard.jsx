@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./educationCard.scss";
 import resumeData from "../../resumeData.jsx";
 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./volunteerCard.scss";
 import resumeData from "../../resumeData.jsx";
 
