@@ -219,10 +219,62 @@ let resumeData = {
           "image":"img/Retina_Pearls_10-2018.pdf",
          "date":"October, 2018"
          
-        }
+        },
       ],
       
-  
+      "techSkills":[
+        {
+          "id":"1",
+          "name":"React",
+        
+         
+        }, 
+        {
+          "id":"2",
+          "name":"Javascript",
+        },
+        {
+          "id":"3",
+          "name":"CSS/HTML",
+
+        },
+        {
+          "id":"4",
+          "name":"Node",
+
+        },
+        {
+          "id":"5",
+          "name":"Express",
+        },
+        {
+          "id":"6",
+          "name":"MySql"
+        },
+        {
+          "id":"7",
+          "name":"MongoDB"
+        },
+        {
+          "id":"8",
+          "name":"MERN"
+        },
+        {
+          "id":"9",
+          "name":"Bootstrap"
+        },
+        {
+          "id":"10",
+          "name":"Handlebars"
+        },
+        {
+          "id":"11",
+          "name":"Material UI"
+        },
+
+     
+      
+      ],
 
   }
   

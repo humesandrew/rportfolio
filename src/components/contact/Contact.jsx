@@ -5,6 +5,20 @@ import Card from 'react-bootstrap/Card';
 import resumeData from "../../resumeData.jsx";
 
 
+const emailBtn = function() {
+  window.open('mailto:humes.andrew@gmail.com')
+}
+
+const githubBtn = function() {
+  window.open("https://github.com/humesandrew/");
+}
+const linkedinBtn = function() {
+  window.open("https://www.linkedin.com/in/andy-humes-72075559/");
+}
+const resumeBtn = function() {
+  window.open(resumeData.resume);
+}
+
 export default function Contact() {
   const [message, setMessage] = useState(false);
 
@@ -55,7 +69,12 @@ health care. </h4>
           </div>
         <div className="contact-left">
           <h1></h1>
-          <div className="contact-info">
+          <button class="button-78" role="button" onClick={emailBtn}>Email</button>
+          <button class="button-78" role="button" onClick={githubBtn}>Github</button>
+          <button class="button-78" role="button" onClick={linkedinBtn}>Linkedin</button>
+          <button class="button-78" role="button" onClick={resumeBtn}>Resume</button>
+
+          {/* <div className="contact-info">
             <div className="contact-info-item">
               <img className="contact-icon" src="https://cdn.iconscout.com/icon/free/png-256/mail-1138-827052.png" alt="" target="_blank" rel="noreferrer"/>
             
@@ -73,7 +92,7 @@ health care. </h4>
               <img className="contact-icon" src="https://cdn.iconscout.com/icon/free/png-256/mail-1138-827052.png" alt="" target="_blank" rel="noreferrer"/>
               <a href={resumeData.resume} target="_blank" rel="noreferrer">Resume</a>
             </div>
-          </div>
+          </div> */}
           <div>
           
             </div>
