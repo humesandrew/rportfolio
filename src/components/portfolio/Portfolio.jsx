@@ -1,5 +1,5 @@
 import "./portfolio.scss";
-
+import React from 'react';
 import PortfolioCard from "../portfolioCard/PortfolioCard"
 
 

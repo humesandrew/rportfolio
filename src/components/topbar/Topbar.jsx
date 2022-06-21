@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./topbar.scss";
 import { Person, Mail } from "@material-ui/icons";
 
