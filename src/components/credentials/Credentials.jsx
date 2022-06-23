@@ -4,6 +4,7 @@ import "./credentials.scss";
 import VolunteerCard from "../volunteerCard/VolunteerCard";
 import EducationCard from "../educationCard/EducationCard";
 import PublicationsCard from "../publicationsCard/PublicationsCard";
+import SkillsCard from "../skillsCard/SkillsCard";
 import resumeData from "../../resumeData.jsx";
 // import education from "../credentialsCard/CredentialsCard";
 
@@ -30,11 +31,18 @@ export default function Credentials() {
       desc: "The 2 publications.",
       img: "",
     },
+    {
+      id: "4",
+
+      title: "Technical Skills",
+      desc: "Technical skills.",
+      img: "",
+    },
   ];
 
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 3)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
 
@@ -71,6 +79,8 @@ export default function Credentials() {
        {currentSlide === 0 &&
         <EducationCard />
       }
+
+      
              
              {currentSlide === 1 &&
         <VolunteerCard />
@@ -80,6 +90,9 @@ export default function Credentials() {
         <PublicationsCard />
       }
 
+{currentSlide === 3 &&
+        <SkillsCard />
+      }
 
               </div>
             </div>
