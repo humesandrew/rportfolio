@@ -3,9 +3,6 @@ import React from 'react';
 import "./portfoliocard.scss";
 import resumeData from "../../resumeData.jsx";
 
-const chartMd = function() {
-  window.open("https://chartmd.herokuapp.com/");
-}
 
 
 
