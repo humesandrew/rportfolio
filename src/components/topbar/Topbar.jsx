@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -12,11 +12,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             Portfolio 
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
+            {/* <Person className="icon" /> */}
             <span>Andy Humes. <br></br>Denver, CO</span>
           </div>
           <div className="itemContainer">
-            <Mail className="icon" />
+            {/* <Mail className="icon" /> */}
             <span><a href="mailto:humes.andrew@gmail.com">humes.andrew@gmail.com</a></span>
           </div>
         </div>
