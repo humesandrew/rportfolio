@@ -26,7 +26,7 @@
 
   ## Questions
 
-  [Click for deployed application](https://portfolioandyhumes.herokuapp.com/)
+  [Click for deployed application](https://portfolioandyhumes.herokuapp.com)
 
   [Click for GitHub Profile.](https://github.com/humesandrew)
 
