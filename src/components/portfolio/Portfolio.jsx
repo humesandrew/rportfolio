@@ -4,17 +4,6 @@ import PortfolioCard from "../portfolioCard/PortfolioCard"
 
 
 
-const chartMd = function() {
-  window.open("https://chartmd.herokuapp.com/");
-}
-const bellyBuster = function() {
-  window.open("https://humesandrew.github.io/Belly-Buster/");
-}
-const jsPortfolio = function() {
-  window.open("https://humesandrew.github.io/portfolio3/");
-}
-
-
 
 export default function Portfolio() {
   return (
@@ -87,44 +76,4 @@ export default function Portfolio() {
 
 
 
-
       
-
-          {/* <div className="item">
-            <li>
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"
-                alt=""
-              />
-              <h3>Express NoteGen</h3>
-            </li>
-          </div>
-          <div className="item">
-            <li>
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"
-                alt=""
-              />
-              <h3>E-Commerce Backend</h3>
-            </li>
-          </div>
-        
-          <div className="item">
-            <li>
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"
-                alt=""
-              />
-              <h3>Day Scheduler</h3>
-            </li>
-          </div>
-          <div className="item">
-            <li>
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"
-                alt=""
-              />
-              <h3>Weather App</h3>
-            </li> */}
-            
-          {/* </div> */}

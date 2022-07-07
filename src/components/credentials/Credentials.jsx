@@ -5,7 +5,7 @@ import VolunteerCard from "../volunteerCard/VolunteerCard";
 import EducationCard from "../educationCard/EducationCard";
 import PublicationsCard from "../publicationsCard/PublicationsCard";
 import SkillsCard from "../skillsCard/SkillsCard";
-import resumeData from "../../resumeData.jsx";
+// import resumeData from "../../resumeData.jsx";
 // import education from "../credentialsCard/CredentialsCard";
 
 export default function Credentials() {

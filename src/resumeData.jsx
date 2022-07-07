@@ -192,7 +192,7 @@ let resumeData = {
           "name":"Portfolio - React",
           "description":"Github repository for this portfolio.",
           "technologies":"React.js",
-          "url":"https://github.com/humesandrew/rportfolio",
+          "url":"https://portfolioandyhumes.herokuapp.com/",
           "url2":"https://github.com/humesandrew/rportfolio",
           "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
         },

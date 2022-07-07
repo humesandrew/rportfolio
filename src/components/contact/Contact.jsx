@@ -30,12 +30,7 @@ export default function Contact() {
 
 
 
-    function handleButton(e) {
-      e.preventDefault();
-      
-    // window.open('Andy_Humes_resume.pdf');//
-     
-    }
+
     
 
 
