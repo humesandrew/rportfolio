@@ -1,9 +1,32 @@
+
+
+
 .project {
     background-color: purple;
    
-    margin: 10px 0px 0px 10px;
-    height: 22vh;
+    margin: 10px 0px 10px 10px;
+    height: 20vh;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 3px 10px var(--dark);
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.projectDiv {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.linkDiv {
+    display: flex;
+    flex-direction: row;
+ 
+    margin: auto;
+    background-color: white;
+ 
 }
