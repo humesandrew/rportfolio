@@ -68,7 +68,7 @@ export default function Portfolio() {
 
  
         </ul>
-        <div className="portfolioCircle">Hello There</div>
+        {/* <div className="portfolioCircle">Hello There</div> */}
       </div>
     </div>
   );

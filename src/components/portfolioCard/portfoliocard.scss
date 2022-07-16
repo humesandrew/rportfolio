@@ -46,3 +46,26 @@ a {
 
 }
 
+////////////////////////////////////////////////////////////////
+
+/// css after redo only/// ///////////
+
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.leftProject {
+    background-color: yellow;
+    margin-right: 10px;
+  width: 47vw;
+    
+}
+
+.rightProject {
+    background-color: green;
+    margin-left: 10px;
+    width: 47vw;
+}

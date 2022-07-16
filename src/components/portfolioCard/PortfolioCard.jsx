@@ -2,52 +2,18 @@
 import React from 'react';
 import "./portfoliocard.scss";
 import resumeData from "../../resumeData.jsx";
-
+import ProjectCard from "../projectCard/ProjectCard";
 
 
 
   export default function PortfolioCard() {
         return (
-
-          
-            <div className="projectList">
-                
-               <ul className="projectUl">
-            {
-              resumeData.project && resumeData.project.map((item)=>{
-                return(
-                  <div className="projectLi">
-                   <h2> {item.name}</h2>
-                  <div className="imageDiv">
-                  <a href={item.url} target="_blank" rel="noreferrer">
-                  <img
-                src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU"}
-                alt=""
-                width={500} height={80}
-              
-                ></img>
-
-
-
-   
-    </a>
-                  </div>
-                
-                    <div className="descriptionDiv">
-                   {item.description}
-                   </div>
-
-                   <div className="repoDiv">
-                  <a href={item.url2} target="_blank" rel="noreferrer">
-                    Click for repository
-                  </a>
-                  </div>
-                  </div>
-                )
-              })
-            }
-          </ul>
+          <div class="projectContainer">
+            <div class="leftProject">Left
+          < ProjectCard />
             </div>
+            <div class="rightProject">Right</div>
+          </div>
 
         )};
             
