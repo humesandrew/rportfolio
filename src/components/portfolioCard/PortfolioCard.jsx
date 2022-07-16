@@ -12,8 +12,7 @@ import ProjectCard from "../projectCard/ProjectCard";
             <div class="leftProject">
               <h1>Featured</h1>
           < ProjectCard />
-          < ProjectCard />
-          < ProjectCard />
+     
             </div>
             <div class="rightProject">Right</div>
           </div>
