@@ -20,13 +20,20 @@
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
+
 }
 
 .linkDiv {
     display: flex;
     flex-direction: row;
- 
-    margin: auto;
+
+    
     background-color: white;
  
+
+}
+
+
+button {
+    width: 92%;
 }
