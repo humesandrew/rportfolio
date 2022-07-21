@@ -121,7 +121,7 @@ let resumeData = {
           "technologies":"MongoDB, Express, React, Node, GraphQL, MaterialUI",
           "url":"https://java4jsrs.herokuapp.com/",
           "url2":"https://github.com/stuartwood2010/SW_Java4Javascripters",
-          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          "image":"img/j4j.png",
           
         }, 
         {
@@ -131,7 +131,7 @@ let resumeData = {
           "technologies":"Bootstrap, Handlebars, MySql",
           "url":"https://chartmd.herokuapp.com/",
           "url2":"https://github.com/stuartwood2010/chartMd_app",
-          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          "image":"chartmd.png",
         },
         {
           "id":"3",
@@ -140,7 +140,7 @@ let resumeData = {
           "technologies":"JavaScript, HTML, CSS",
           "url":"https://humesandrew.github.io/Belly-Buster/",
           "url2":"https://github.com/humesandrew/Belly-Buster",
-          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          "image":"bellybusterthumb.png",
         },],
 
       "project":[
