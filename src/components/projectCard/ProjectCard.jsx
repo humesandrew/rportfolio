@@ -18,13 +18,18 @@ export default function ProjectCard() {
                   <h4>{item.technologies}</h4>
 
                   <div class="linkDiv">
-                    <a href={item.url} target="_blank" rel="noreferrer">
-                      <h3>Deployed</h3>
-                    </a>
+                    <button>
+                      <a href={item.url} target="_blank" rel="noreferrer">
+                        {/* <h3>Deployed</h3> */}
+                        <h3>Deployed</h3>
+                      </a>
+                    </button>
 
-                    <a href={item.url2} target="_blank" rel="noreferrer">
-                      <h3>Repository</h3>
-                    </a>
+                    <button>
+                      <a href={item.url2} target="_blank" rel="noreferrer">
+                        <h3>Repository</h3>
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
