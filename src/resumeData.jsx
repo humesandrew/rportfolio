@@ -131,7 +131,7 @@ let resumeData = {
           "technologies":"Bootstrap, Handlebars, MySql",
           "url":"https://chartmd.herokuapp.com/",
           "url2":"https://github.com/stuartwood2010/chartMd_app",
-          "image":"chartmd.png",
+          "image":"img/chartmd.png",
         },
         {
           "id":"3",
@@ -140,7 +140,7 @@ let resumeData = {
           "technologies":"JavaScript, HTML, CSS",
           "url":"https://humesandrew.github.io/Belly-Buster/",
           "url2":"https://github.com/humesandrew/Belly-Buster",
-          "image":"bellybusterthumb.png",
+          "image":"img/bellybusterthumb.png",
         },],
 
       "project":[
