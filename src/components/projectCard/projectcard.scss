@@ -6,7 +6,7 @@
    
     margin: 10px 0px 10px 10px;
     height: 20vh;
-    width: 100%;
+    width: max-content;
     border-radius: 15px;
     box-shadow: 0 3px 10px var(--dark);
     padding: 0px;
@@ -26,8 +26,8 @@ justify-content: space-evenly;
 .linkDiv {
     display: flex;
     flex-direction: row;
-
-    
+width: 100%;
+    justify-content: center;
     background-color: white;
  
 
@@ -35,6 +35,6 @@ justify-content: space-evenly;
 
 
 button {
-    width: 92%;
+    width: 90%;
 }
 
