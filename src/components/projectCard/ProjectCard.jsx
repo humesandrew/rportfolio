@@ -11,7 +11,7 @@ export default function ProjectCard() {
           resumeData.featured.map((item) => {
             return (
               <div class="project">
-                <div class="projectDiv" style={{ backgroundImage: `url(${item.image})` }}>
+                <div class="projectDiv" style={{ backgroundImage: `url(${item.image})`}}>
           {/* <div><img src={item.image}></img></div> */}
           
                   <h1> {item.name}</h1>
