@@ -136,7 +136,7 @@ let resumeData = {
         {
           "id":"3",
           "name":"Belly-Buster",
-          "description":"An interactive application that allows doctors to leave notes and communicate with patients.",
+          "description":"An application you can use to search for and map different breweries in American cities.",
           "technologies":"JavaScript, HTML, CSS",
           "url":"https://humesandrew.github.io/Belly-Buster/",
           "url2":"https://github.com/humesandrew/Belly-Buster",

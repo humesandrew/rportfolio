@@ -46,7 +46,7 @@ const deployPrefix = "https://humesandrew.github.io/";
       
                 {loading && <p>Projects are loading!</p>}
                 {error && <p>{error}</p>}
-                  <h1> {item.name}</h1>
+                  <h2> {item.name}</h2>
 
                   <h4>{item.description}</h4>
 
