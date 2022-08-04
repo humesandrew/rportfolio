@@ -1,8 +1,29 @@
 
-.apiItems {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 15px;
-    flex-wrap: wrap;
+// .apiItems {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-evenly;
+//     padding: 15px;
+//     flex-wrap: wrap;
+//     }
+
+    .apiItems {
+        // background-color: purple;
+       
+        margin: 10px 0px 10px 10px;
+        height: 15vh;
+        width: 95vh;
+        border-radius: 15px;
+        box-shadow: 0 3px 10px var(--dark);
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      
+      
+
+     
+    
     }

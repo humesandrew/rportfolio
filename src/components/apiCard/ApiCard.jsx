@@ -27,42 +27,41 @@ export default function ApiCard() {
     }
   };
 
-
+const deployPrefix = "https://humesandrew.github.io/";
 
   return (
     
-    <div className="apiItems">
-    
-      {/* {loading && <p>Repos are loading!</p>}
-       {error && <p>{error}</p>}
-      {data.map(item => (
-        <li key={item.id}>
-          <a href={item.url}>{item.name}</a>
-        </li>
-      ))} */}      <ul>
-        {resumeData.featured &&
-          resumeData.featured.map((item) => {
+    <div>
+  
+         <ul>
+
+{/* // here where it says map i can keep commenting out and undo to fix the repeat api calls // */}
+ {/* just go from ul to ul, then reinsert and it has been working properly */}
+ {/* ill have to figure out again if this is even worth it to show off api call */}
+
+        {data.map((item) => {
             return (
-              <div class="project">
-                <div class="projectDiv" style={{ backgroundImage: `url(${resumeData.githubImage})`}}>
-          {/* <div><img src={item.image}></img></div> */}
-          
+              <div>
+                <div className="apiItems" key={item.id} style={{ backgroundImage: `url(${resumeData.githubImage})`}}>
+      
+                {loading && <p>Projects are loading!</p>}
+                {error && <p>{error}</p>}
                   <h1> {item.name}</h1>
 
                   <h4>{item.description}</h4>
 
-                  <h4>{item.technologies}</h4>
+                
 
                   <div class="linkDiv">
                     <button>
-                      <a href={item.url} target="_blank" rel="noreferrer">
-                        {/* <h3>Deployed</h3> */}
+                      <a href={deployPrefix + item.name + "/"} target="_blank" rel="noreferrer">
+                    
                         <h3>Deployed</h3>
                       </a>
                     </button>
 
                     <button>
-                      <a href={item.url2} target="_blank" rel="noreferrer">
+                      <a href={item.html_url} target="_blank" rel="noreferrer">
                         <h3>Repository</h3>
                       </a>
                     </button>
@@ -71,6 +70,10 @@ export default function ApiCard() {
               </div>
             );
           })}
+
+
+
+          
       </ul>
     
     </div>

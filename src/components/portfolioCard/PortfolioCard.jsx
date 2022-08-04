@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./portfoliocard.scss";
-import resumeData from "../../resumeData.jsx";
+
 import ProjectCard from "../projectCard/ProjectCard";
 import ApiCard from "../apiCard/ApiCard";
 
@@ -14,7 +14,7 @@ import ApiCard from "../apiCard/ApiCard";
           < ProjectCard />
           
             </div>
-            <div class="rightProject">All Projects
+            <div class="rightProject">
             < ApiCard />
             </div>
             
