@@ -14,7 +14,7 @@ import ApiCard from "../apiCard/ApiCard";
           < ProjectCard />
           
             </div>
-            <div class="rightProject">Right
+            <div class="rightProject">All Projects
             < ApiCard />
             </div>
             

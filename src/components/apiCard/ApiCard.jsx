@@ -30,13 +30,50 @@ export default function ApiCard() {
 
 
   return (
-    <ul>
+    
+    <div className="apiItems">
+    
+      {/* {loading && <p>Repos are loading!</p>}
+       {error && <p>{error}</p>}
       {data.map(item => (
         <li key={item.id}>
           <a href={item.url}>{item.name}</a>
         </li>
-      ))}
-    </ul>
+      ))} */}      <ul>
+        {resumeData.featured &&
+          resumeData.featured.map((item) => {
+            return (
+              <div class="project">
+                <div class="projectDiv" style={{ backgroundImage: `url(${resumeData.githubImage})`}}>
+          {/* <div><img src={item.image}></img></div> */}
+          
+                  <h1> {item.name}</h1>
+
+                  <h4>{item.description}</h4>
+
+                  <h4>{item.technologies}</h4>
+
+                  <div class="linkDiv">
+                    <button>
+                      <a href={item.url} target="_blank" rel="noreferrer">
+                        {/* <h3>Deployed</h3> */}
+                        <h3>Deployed</h3>
+                      </a>
+                    </button>
+
+                    <button>
+                      <a href={item.url2} target="_blank" rel="noreferrer">
+                        <h3>Repository</h3>
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+      </ul>
+    
+    </div>
   );
 
 
