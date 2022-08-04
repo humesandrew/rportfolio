@@ -306,6 +306,7 @@ let resumeData = {
      
       
       ],
+      "githubImage":"img/githubthumb.png",
 
   }
   
