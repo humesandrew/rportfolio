@@ -3,6 +3,9 @@ import "./apicard.scss";
 import resumeData from "../../resumeData.jsx";
 import axios from "axios";
 
+
+
+
 export default function ApiCard() {
   const [data, setData] = useState(null);
   const [error, setError] = useState("");
@@ -39,7 +42,7 @@ const deployPrefix = "https://humesandrew.github.io/";
  {/* just go from ul to ul, then reinsert and it has been working properly */}
  {/* ill have to figure out again if this is even worth it to show off api call */}
 
-        {data.map((item) => {
+        {/* {data.map((item) => {
             return (
               <div>
                 <div className="apiItems" key={item.id} style={{ backgroundImage: `url(${resumeData.githubImage})`}}>
@@ -71,7 +74,7 @@ const deployPrefix = "https://humesandrew.github.io/";
             );
           })}
 
-
+ */}
 
           
       </ul>
