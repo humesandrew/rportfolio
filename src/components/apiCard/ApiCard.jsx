@@ -76,6 +76,7 @@ const deployPrefix = "https://humesandrew.github.io/";
 
  */}
 
+<p>Well shit, lets hard code it until we can state it up with API call</p>
           
       </ul>
     
