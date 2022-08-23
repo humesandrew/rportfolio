@@ -24,7 +24,7 @@
     This project is licensed under humesandrew. 
 
   ## Contributing
-    This project was made by Andy Humes. 
+    This project was made by Andy Humes. I used React.js, React-Bootstrap,React-Text-Animation, and Material-UI.
 
   ## Questions
 
