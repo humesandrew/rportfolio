@@ -17,7 +17,7 @@
   
 
   ## Usage
-  ![Screenshot](/public/rportfolio.png?raw=true "Screenshot")
+  ![Screenshot](/public/img/rportfolio.png?raw=true "Screenshot")
     Navigate to the contact page to get a hold of me in a variety of ways! 
 
   ## License
