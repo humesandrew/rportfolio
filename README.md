@@ -8,8 +8,8 @@
   ## Table of Contents (Optional)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
   - [License](#license)
+  - [Contributing](#contributing)
   - [Questions](#questions)
 
   ## Installation
