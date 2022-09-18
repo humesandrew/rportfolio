@@ -35,7 +35,7 @@ const deployPrefix = "https://humesandrew.github.io/";
   return (
     
     <div>
-  
+      
          <ul>
 
 {/* // here where it says map i can keep commenting out and undo to fix the repeat api calls // */}
@@ -76,7 +76,28 @@ const deployPrefix = "https://humesandrew.github.io/";
 
  */}
 
-<p>Well shit, lets hard code it until we can state it up with API call</p>
+<div>
+{
+              resumeData.techSkills && resumeData.techSkills.map((item)=>{
+                return(
+                  <div>
+                  <li>
+                   <h2> {item.name}</h2>
+                  
+               
+              
+               
+                 
+               
+                  </li>
+                
+                  </div>
+                )
+              })
+            }
+
+
+  </div>
           
       </ul>
     
