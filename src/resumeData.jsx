@@ -179,7 +179,7 @@ let resumeData = {
           "technologies":"JavaScript, HTML, CSS, Bootstrap",
           "url":"https://humesandrew.github.io/portfolio3/",
           "url2":"https://github.com/humesandrew/portfolio3",
-          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          "image":"img/portfolio3thumb.jpg",
         },
      
         {
@@ -189,7 +189,7 @@ let resumeData = {
           "technologies":"Node, Express, MySql2, Sequelize, Postman/Insomnia",
           "url":"https://github.com/humesandrew/ecommerceWorking",
           "url2":"https://github.com/humesandrew/ecommerceWorking",
-          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          "image":"img/ecommerceworkingthumb.jpg",
         },
         {
           "id":"6",
@@ -198,7 +198,7 @@ let resumeData = {
           "technologies":"Node",
           "url":"https://github.com/humesandrew/readmegen",
           "url2":"https://github.com/humesandrew/readmegen",
-          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          "image":"img/readmegenthumb.jpg",
         },
         {
           "id":"7",
@@ -207,7 +207,7 @@ let resumeData = {
           "technologies":"JavaScript, HTML, CSS",
           "url":"https://humesandrew.github.io/hw5scheduler/",
           "url2":"https://github.com/humesandrew/hw5scheduler",
-          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          "image":"img/workdayschedulerthumb.jpg",
         },
         {
           "id":"8",
@@ -216,7 +216,7 @@ let resumeData = {
           "technologies":"Node, Express, MySql2",
           "url":"https://github.com/humesandrew/employeeDirectory",
           "url2":"https://github.com/humesandrew/employeeDirectory",
-          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          "image":"img/employeedirectorythumb.jpg",
         },
         {
           "id":"9",
@@ -225,7 +225,7 @@ let resumeData = {
           "technologies":"React.js",
           "url":"https://portfolioandyhumes.herokuapp.com/",
           "url2":"https://github.com/humesandrew/rportfolio",
-          "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFBVgrCZUwUT9V-rLSpQPj10C8reI2lUodOA&usqp=CAU",
+          "image":"img/rportfoliothumb.jpg",
         },
         
         
