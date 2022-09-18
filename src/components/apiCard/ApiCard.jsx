@@ -36,7 +36,7 @@ const deployPrefix = "https://humesandrew.github.io/";
     
     <div>
       
-         <ul>
+        
 
 {/* // here where it says map i can keep commenting out and undo to fix the repeat api calls // */}
  {/* just go from ul to ul, then reinsert and it has been working properly */}
@@ -76,16 +76,32 @@ const deployPrefix = "https://humesandrew.github.io/";
 
  */}
 
-<div>
+
 {
-              resumeData.techSkills && resumeData.techSkills.map((item)=>{
+              resumeData.project && resumeData.project.map((item)=>{
                 return(
                   <div>
                   <li>
+                    <div className="individualProjectDiv">
                    <h2> {item.name}</h2>
+                  <h4>{item.description}</h4>
+                  <h4>{item.technologies}</h4>
                   
-               
-              
+                  <div class="linkDiv">
+                    <button>
+                      <a href={item.url} target="_blank" rel="noreferrer">
+                        {/* <h3>Deployed</h3> */}
+                        <h3>Deployed</h3>
+                      </a>
+                    </button>
+
+                    <button>
+                      <a href={item.url2} target="_blank" rel="noreferrer">
+                        <h3>Repository</h3>
+                      </a>
+                    </button>
+                  </div>
+                   </div>
                
                  
                
@@ -98,10 +114,9 @@ const deployPrefix = "https://humesandrew.github.io/";
 
 
   </div>
-          
-      </ul>
+     
     
-    </div>
+   
   );
 
 
