@@ -82,7 +82,7 @@ const deployPrefix = "https://humesandrew.github.io/";
                 return(
                   <div>
                   <li>
-                    <div className="individualProjectDiv">
+                    <div className="individualProjectDiv" style={{ backgroundImage: `url(${item.image})`}}>
                    <h2> {item.name}</h2>
                   <h4>{item.description}</h4>
                   <h4>{item.technologies}</h4>
