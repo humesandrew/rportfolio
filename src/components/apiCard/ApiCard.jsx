@@ -90,7 +90,6 @@ const deployPrefix = "https://humesandrew.github.io/";
                   <div class="linkDiv">
                     <button>
                       <a href={item.url} target="_blank" rel="noreferrer">
-                        {/* <h3>Deployed</h3> */}
                         <h3>Deployed</h3>
                       </a>
                     </button>
