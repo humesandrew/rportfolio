@@ -193,12 +193,12 @@ let resumeData = {
         },
         {
           "id":"6",
-          "name":"Readme Generator",
-          "description":"An Node.js application that will generate readme files with user input.",
-          "technologies":"Node",
-          "url":"https://github.com/humesandrew/readmegen",
-          "url2":"https://github.com/humesandrew/readmegen",
-          "image":"img/readmegenthumb.jpg",
+          "name":"Tic-Tac-Reacts",
+          "description":"Tic-tac-toe using React.",
+          "technologies":"React",
+          "url":"https://humestictacreact.herokuapp.com/",
+          "url2":"https://github.com/humesandrew/ticTacReact",
+          "image":"img/tictacreact.jpg",
         },
         {
           "id":"7",
