@@ -180,6 +180,7 @@ let resumeData = {
           "url":"https://humesandrew.github.io/portfolio3/",
           "url2":"https://github.com/humesandrew/portfolio3",
           "image":"img/portfolio3thumb.jpg",
+          
         },
      
         {
