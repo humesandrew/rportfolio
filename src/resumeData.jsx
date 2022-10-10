@@ -234,7 +234,7 @@ let resumeData = {
           "url":"https://portfolioandyhumes.herokuapp.com/",
           "url2":"https://github.com/humesandrew/rportfolio",
           "image":"img/rportfoliothumb.jpg",
-          "theme":"light"
+          "theme":"dark"
         },
         
         
