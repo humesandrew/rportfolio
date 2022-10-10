@@ -122,6 +122,7 @@ let resumeData = {
           "url":"https://java4jsrs.herokuapp.com/",
           "url2":"https://github.com/stuartwood2010/SW_Java4Javascripters",
           "image":"img/j4j.png",
+          "theme":"dark"
           
         }, 
         {
@@ -132,6 +133,7 @@ let resumeData = {
           "url":"https://chartmd.herokuapp.com/",
           "url2":"https://github.com/stuartwood2010/chartMd_app",
           "image":"img/chartmd.png",
+          "theme":"light"
         },
         {
           "id":"3",
@@ -141,6 +143,7 @@ let resumeData = {
           "url":"https://humesandrew.github.io/Belly-Buster/",
           "url2":"https://github.com/humesandrew/Belly-Buster",
           "image":"img/bellybusterthumb.png",
+          "theme":"light"
         },],
 
       "project":[
@@ -180,7 +183,7 @@ let resumeData = {
           "url":"https://humesandrew.github.io/portfolio3/",
           "url2":"https://github.com/humesandrew/portfolio3",
           "image":"img/portfolio3thumb.jpg",
-          
+          "theme":"dark"
         },
      
         {
@@ -191,6 +194,7 @@ let resumeData = {
           "url":"https://github.com/humesandrew/ecommerceWorking",
           "url2":"https://github.com/humesandrew/ecommerceWorking",
           "image":"img/ecommerceworkingthumb.jpg",
+          "theme":"light"
         },
         {
           "id":"6",
@@ -200,6 +204,7 @@ let resumeData = {
           "url":"https://humestictacreact.herokuapp.com/",
           "url2":"https://github.com/humesandrew/ticTacReact",
           "image":"img/tictacreact.jpg",
+          "theme":"light"
         },
         {
           "id":"7",
@@ -209,6 +214,7 @@ let resumeData = {
           "url":"https://humesandrew.github.io/hw5scheduler/",
           "url2":"https://github.com/humesandrew/hw5scheduler",
           "image":"img/workdayschedulerthumb.jpg",
+          "theme":"light"
         },
         {
           "id":"8",
@@ -218,6 +224,7 @@ let resumeData = {
           "url":"https://github.com/humesandrew/employeeDirectory",
           "url2":"https://github.com/humesandrew/employeeDirectory",
           "image":"img/employeedirectorythumb.jpg",
+          "theme":"dark"
         },
         {
           "id":"9",
@@ -227,6 +234,7 @@ let resumeData = {
           "url":"https://portfolioandyhumes.herokuapp.com/",
           "url2":"https://github.com/humesandrew/rportfolio",
           "image":"img/rportfoliothumb.jpg",
+          "theme":"dark"
         },
         
         

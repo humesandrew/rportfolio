@@ -30,7 +30,8 @@ import AnimatedText from 'react-animated-text-content';
 >
   Featured
 </AnimatedText>
-          < ProjectCard />
+          < ProjectCard 
+           />
           
             </div>
             <div class="rightProject">
